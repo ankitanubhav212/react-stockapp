@@ -1,0 +1,81 @@
+.stock-card {
+  box-shadow: border-box;
+  flex: 0 0 98%;
+  list-style: none;
+  display: flex;
+  padding: 2rem;
+  margin: 2rem;
+  border: solid black 0.05rem;
+  width: 40rem;
+  text-align: left;
+  flex-flow: column wrap;
+  background-color: #fefefe;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  margin-left: 15rem;
+  color: black;
+}
+
+.stock-card:hover {
+  background-color: #fff;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.24), 0 10px 10px rgba(0, 0, 0, 0.20);
+  text-decoration: none;
+}
+
+.stock-card>* {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.stock-card>* span {
+  color: #757575;
+  font-weight: 400;
+}
+
+.search-input {
+  outline: none;
+  margin-top: 40px;
+  width: 50%;
+  height: 35px;
+  background-color: #f0f8ff;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.search-but {
+  margin-right: 150px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+.total-count {
+  color: #757575;
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 15rem;
+}
+
+.total-count>span {
+  color: rgba(0, 0, 0, 0.89);
+}
+
+.stock-card-link :hover {
+  text-decoration: none;
+}
+
+.stock-info {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.stock-info>* div {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.stock-info>* span {
+  color: #757575;
+  font-weight: 400;
+}
